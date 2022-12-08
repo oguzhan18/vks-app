@@ -1,0 +1,4 @@
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#303030"
+  image: assets/expenses-history.png

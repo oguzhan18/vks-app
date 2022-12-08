@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "578225100300",
+    "firebase_url": "https://expenses-history-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "expenses-history",
+    "storage_bucket": "expenses-history.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578225100300:android:d49942c95145bd116dc029",
+        "android_client_info": {
+          "package_name": "com.expenses.history"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578225100300-252a0m57hilii6hr19a0g3lcm6n3ht0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCac2gZJ1NRggQgCIMqPhNdkrK6aIYhVDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578225100300-252a0m57hilii6hr19a0g3lcm6n3ht0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
