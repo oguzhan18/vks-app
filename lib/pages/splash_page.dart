@@ -51,7 +51,7 @@ class _SplashPageState extends State<SplashPage> {
       children: [
         // Image(
         //   image: AssetImage(
-        //     'assets/expenses-history.svg',
+        //     'assets/vks.svg',
         //   ),
         // ),
         // Icon(Icons.account_balance_wallet_outlined,

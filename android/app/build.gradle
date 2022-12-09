@@ -7,10 +7,8 @@ if (localPropertiesFile.exists()) {
 }
 
 def flutterRoot = localProperties.getProperty('flutter.sdk')
-if (flutterRoot == null) {
-    // throw new GradleException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
-    throw new FileNotFoundException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.")
-
+if (flutterRoot == null) { 
+    throw new FileNotFoundException("Flutter SDK not found. Define location with flutter.sdk in the local.properties file.") 
 }
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
@@ -54,38 +52,26 @@ android {
         main.java.srcDirs += 'src/main/kotlin'
     }
 
-    defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "com.sandgars.vks"
-        // You can update the following values to match your application needs.
-        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
+    defaultConfig { 
+        applicationId "com.sandgars.vks" 
         minSdkVersion 23
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
-    }
-
-    // buildTypes {
-    //     release {
-    //         // TODO: Add your own signing config for the release build.
-    //         // Signing with the debug keys for now, so `flutter run --release` works.
-    //         signingConfig signingConfigs.debug
-    //     }
-    // }
+    } 
     signingConfigs {
        release {
            keyAlias keystoreProperties['keyAlias']
            keyPassword keystoreProperties['keyPassword']
            storeFile keystoreProperties['storeFile'] ? file(keystoreProperties['storeFile']) : null
-           storePassword keystoreProperties['storePassword']
+           storePassword keystoreProperties['storePassword'] 
        }
     }
     buildTypes {
         release {
-            signingConfig signingConfigs.release
+            signingConfig signingConfigs.debug
         }
-    }
-
+    } 
 }
 
 flutter {
@@ -93,14 +79,8 @@ flutter {
 }
 
 dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.google.android.gms:play-services-ads:21.0.0'
-
-    // Import the BoM for the Firebase platform
-    implementation platform('com.google.firebase:firebase-bom:30.3.0')
-    // Declare the dependency for the App Check library
-    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    implementation 'com.google.android.gms:play-services-ads:21.0.0' 
+    implementation platform('com.google.firebase:firebase-bom:30.3.0') 
     implementation 'com.google.firebase:firebase-appcheck-playintegrity'
-}
-// хз
-// android.buildTypes.release.ndk.debugSymbolLevel = { SYMBOL_TABLE | FULL }
+} 

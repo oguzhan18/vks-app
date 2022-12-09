@@ -2,5 +2,6 @@
     "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
     "editor.bracketPairColorization.enabled": false,
     "cmake.configureOnOpen": false,
-    "java.configuration.updateBuildConfiguration": "interactive"
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "cmake.sourceDirectory": "${workspaceFolder}/linux/flutter"
 }

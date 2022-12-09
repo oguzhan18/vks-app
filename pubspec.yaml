@@ -60,8 +60,10 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/expenses-history.svg
+    - assets/vks.svg
     - assets/curs.json
+    - assets/vks.png
+    - assets/vks-onlyicon.svg
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
 
@@ -99,4 +101,4 @@ flutter:
 flutter_icons:
   android: true
   ios: true
-  image_path: assets/expenses-history-bg.png
+  image_path: assets/vks.png

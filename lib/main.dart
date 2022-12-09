@@ -33,11 +33,11 @@ void main() async {
     Provider(create: (_) => authServ),
     Provider(create: (_) => curServ),
     ChangeNotifierProvider(create: (_) => themeServ)
-  ], child: MyApp()));
+  ], child: const MyApp()));
 }
 
 class MyApp extends StatefulWidget {
-  MyApp({Key? key}) : super(key: key);
+  const MyApp({Key? key}) : super(key: key);
 
   @override
   State<MyApp> createState() => _MyAppState();
@@ -53,7 +53,7 @@ class _MyAppState extends State<MyApp> {
       theme: theme.lightTheme,
       darkTheme: theme.darkTheme,
       // home: TestWidget(),
-      home: SplashPage(),
+      home: const SplashPage(),
     );
   }
 }
