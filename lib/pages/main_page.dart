@@ -1,5 +1,6 @@
-import 'dart:io';
+// ignore_for_file: unused_import
 
+import 'dart:io';
 import 'package:vks/ad_options.dart';
 import 'package:vks/constants.dart';
 import 'package:vks/models/account.dart';
@@ -17,7 +18,6 @@ import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:provider/provider.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-
 import '../functions.dart';
 import '../models/history_node.dart';
 import '../models/wallet.dart';
@@ -26,7 +26,7 @@ import '../widgets/wallet_widget.dart';
 import 'add_wallet_page.dart';
 
 class MainPage extends StatefulWidget {
-  MainPage({Key? key}) : super(key: key);
+  const MainPage({Key? key}) : super(key: key);
 
   @override
   State<MainPage> createState() => _MainPageState();
@@ -57,7 +57,7 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-          title: const Text('Expenses History App'),
+          title: const Text('VKS - VERSİON KONTROL SİSTEMİ'),
           centerTitle: true,
           actions: [
             IconButton(
@@ -79,16 +79,17 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
             return const Center(child: CircularProgressIndicator());
           }),
       floatingActionButton: FloatingActionButton(
-          tooltip: 'GİDER EKLE',
-          child: const Icon(Icons.add),
-          onPressed: () {
-            Navigator.push(
-              context,
-              MaterialPageRoute(
-                builder: (_) => AddWalletPage(),
-              ),
-            );
-          }),
+        tooltip: 'GİDER EKLE',
+        child: const Icon(Icons.add),
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => AddWalletPage(),
+            ),
+          );
+        },
+      ),
     );
   }
 
