@@ -43,46 +43,46 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-      apiKey: "AIzaSyBymd_CbNB2Bn7qgM67E7vC_Y8ZwUsBal4",
-      authDomain: "vks-app-f9b3e.firebaseapp.com",
+      apiKey: "AIzaSyBTLlFQWFMRlA5ltYje9G3judzodH_cGlY",
+      authDomain: "vdk-app-841f5.firebaseapp.com",
       databaseURL:
-          "https://vks-app-f9b3e-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "vks-app-f9b3e",
-      storageBucket: "vks-app-f9b3e.appspot.com",
-      messagingSenderId: "1089859076002",
-      appId: "1:1089859076002:web:34b80d824ce480c5453cfb",
-      measurementId: "G-KQ9TZBSRQK");
+          "https://vdk-app-841f5-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "vdk-app-841f5",
+      storageBucket: "vdk-app-841f5.appspot.com",
+      messagingSenderId: "492968715847",
+      appId: "1:492968715847:web:eff6a12954588985b43362",
+      measurementId: "G-P03TCWX8SB");
 
   static const FirebaseOptions android = FirebaseOptions(
-      apiKey: "AIzaSyBymd_CbNB2Bn7qgM67E7vC_Y8ZwUsBal4",
-      authDomain: "vks-app-f9b3e.firebaseapp.com",
+      apiKey: "AIzaSyBTLlFQWFMRlA5ltYje9G3judzodH_cGlY",
+      authDomain: "vdk-app-841f5.firebaseapp.com",
       databaseURL:
-          "https://vks-app-f9b3e-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "vks-app-f9b3e",
-      storageBucket: "vks-app-f9b3e.appspot.com",
-      messagingSenderId: "1089859076002",
-      appId: "1:1089859076002:web:34b80d824ce480c5453cfb",
-      measurementId: "G-KQ9TZBSRQK");
+          "https://vdk-app-841f5-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "vdk-app-841f5",
+      storageBucket: "vdk-app-841f5.appspot.com",
+      messagingSenderId: "492968715847",
+      appId: "1:492968715847:web:eff6a12954588985b43362",
+      measurementId: "G-P03TCWX8SB");
 
   static const FirebaseOptions ios = FirebaseOptions(
-      apiKey: "AIzaSyBymd_CbNB2Bn7qgM67E7vC_Y8ZwUsBal4",
-      authDomain: "vks-app-f9b3e.firebaseapp.com",
+      apiKey: "AIzaSyBTLlFQWFMRlA5ltYje9G3judzodH_cGlY",
+      authDomain: "vdk-app-841f5.firebaseapp.com",
       databaseURL:
-          "https://vks-app-f9b3e-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "vks-app-f9b3e",
-      storageBucket: "vks-app-f9b3e.appspot.com",
-      messagingSenderId: "1089859076002",
-      appId: "1:1089859076002:web:34b80d824ce480c5453cfb",
-      measurementId: "G-KQ9TZBSRQK");
+          "https://vdk-app-841f5-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "vdk-app-841f5",
+      storageBucket: "vdk-app-841f5.appspot.com",
+      messagingSenderId: "492968715847",
+      appId: "1:492968715847:web:eff6a12954588985b43362",
+      measurementId: "G-P03TCWX8SB");
 
   static const FirebaseOptions macos = FirebaseOptions(
-      apiKey: "AIzaSyBymd_CbNB2Bn7qgM67E7vC_Y8ZwUsBal4",
-      authDomain: "vks-app-f9b3e.firebaseapp.com",
+      apiKey: "AIzaSyBTLlFQWFMRlA5ltYje9G3judzodH_cGlY",
+      authDomain: "vdk-app-841f5.firebaseapp.com",
       databaseURL:
-          "https://vks-app-f9b3e-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "vks-app-f9b3e",
-      storageBucket: "vks-app-f9b3e.appspot.com",
-      messagingSenderId: "1089859076002",
-      appId: "1:1089859076002:web:34b80d824ce480c5453cfb",
-      measurementId: "G-KQ9TZBSRQK");
+          "https://vdk-app-841f5-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "vdk-app-841f5",
+      storageBucket: "vdk-app-841f5.appspot.com",
+      messagingSenderId: "492968715847",
+      appId: "1:492968715847:web:eff6a12954588985b43362",
+      measurementId: "G-P03TCWX8SB");
 }
