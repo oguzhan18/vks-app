@@ -43,46 +43,46 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-      apiKey: "AIzaSyADART70-Tr-23Rrb-RKnh0HFZhqh1KdLE",
-      authDomain: "expenses-history.firebaseapp.com",
+      apiKey: "AIzaSyBymd_CbNB2Bn7qgM67E7vC_Y8ZwUsBal4",
+      authDomain: "vks-app-f9b3e.firebaseapp.com",
       databaseURL:
-          "https://expenses-history-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "expenses-history",
-      storageBucket: "expenses-history.appspot.com",
-      messagingSenderId: "578225100300",
-      appId: "1:578225100300:web:96630dccf7db46146dc029",
-      measurementId: "G-1D2RMW5H38");
+          "https://vks-app-f9b3e-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "vks-app-f9b3e",
+      storageBucket: "vks-app-f9b3e.appspot.com",
+      messagingSenderId: "1089859076002",
+      appId: "1:1089859076002:web:34b80d824ce480c5453cfb",
+      measurementId: "G-KQ9TZBSRQK");
 
   static const FirebaseOptions android = FirebaseOptions(
-      apiKey: "AIzaSyADART70-Tr-23Rrb-RKnh0HFZhqh1KdLE",
-      authDomain: "expenses-history.firebaseapp.com",
+      apiKey: "AIzaSyBymd_CbNB2Bn7qgM67E7vC_Y8ZwUsBal4",
+      authDomain: "vks-app-f9b3e.firebaseapp.com",
       databaseURL:
-          "https://expenses-history-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "expenses-history",
-      storageBucket: "expenses-history.appspot.com",
-      messagingSenderId: "578225100300",
-      appId: "1:578225100300:web:96630dccf7db46146dc029",
-      measurementId: "G-1D2RMW5H38");
+          "https://vks-app-f9b3e-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "vks-app-f9b3e",
+      storageBucket: "vks-app-f9b3e.appspot.com",
+      messagingSenderId: "1089859076002",
+      appId: "1:1089859076002:web:34b80d824ce480c5453cfb",
+      measurementId: "G-KQ9TZBSRQK");
 
   static const FirebaseOptions ios = FirebaseOptions(
-      apiKey: "AIzaSyADART70-Tr-23Rrb-RKnh0HFZhqh1KdLE",
-      authDomain: "expenses-history.firebaseapp.com",
+      apiKey: "AIzaSyBymd_CbNB2Bn7qgM67E7vC_Y8ZwUsBal4",
+      authDomain: "vks-app-f9b3e.firebaseapp.com",
       databaseURL:
-          "https://expenses-history-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "expenses-history",
-      storageBucket: "expenses-history.appspot.com",
-      messagingSenderId: "578225100300",
-      appId: "1:578225100300:web:96630dccf7db46146dc029",
-      measurementId: "G-1D2RMW5H38");
+          "https://vks-app-f9b3e-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "vks-app-f9b3e",
+      storageBucket: "vks-app-f9b3e.appspot.com",
+      messagingSenderId: "1089859076002",
+      appId: "1:1089859076002:web:34b80d824ce480c5453cfb",
+      measurementId: "G-KQ9TZBSRQK");
 
   static const FirebaseOptions macos = FirebaseOptions(
-      apiKey: "AIzaSyADART70-Tr-23Rrb-RKnh0HFZhqh1KdLE",
-      authDomain: "expenses-history.firebaseapp.com",
+      apiKey: "AIzaSyBymd_CbNB2Bn7qgM67E7vC_Y8ZwUsBal4",
+      authDomain: "vks-app-f9b3e.firebaseapp.com",
       databaseURL:
-          "https://expenses-history-default-rtdb.europe-west1.firebasedatabase.app",
-      projectId: "expenses-history",
-      storageBucket: "expenses-history.appspot.com",
-      messagingSenderId: "578225100300",
-      appId: "1:578225100300:web:96630dccf7db46146dc029",
-      measurementId: "G-1D2RMW5H38");
+          "https://vks-app-f9b3e-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "vks-app-f9b3e",
+      storageBucket: "vks-app-f9b3e.appspot.com",
+      messagingSenderId: "1089859076002",
+      appId: "1:1089859076002:web:34b80d824ce480c5453cfb",
+      measurementId: "G-KQ9TZBSRQK");
 }

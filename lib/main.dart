@@ -52,7 +52,6 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       theme: theme.lightTheme,
       darkTheme: theme.darkTheme,
-      // home: TestWidget(),
       home: const SplashPage(),
     );
   }

@@ -57,7 +57,7 @@ class _MainPageState extends State<MainPage> with TickerProviderStateMixin {
     return Scaffold(
       key: scaffoldKey,
       appBar: AppBar(
-          title: const Text('VKS - VERSİON KONTROL SİSTEMİ'),
+          title: const Text('VKS - VARLIK KONTROL SİSTEMİ '),
           centerTitle: true,
           actions: [
             IconButton(

@@ -33,8 +33,7 @@ dependencies:
   intl: 
   google_fonts:
   responsive_grid: 
-  flutter_svg: 
-  footer:
+  flutter_svg:  
   
 
   flutter_launcher_icons:

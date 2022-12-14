@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "578225100300",
-    "firebase_url": "https://expenses-history-default-rtdb.europe-west1.firebasedatabase.app",
-    "project_id": "expenses-history",
-    "storage_bucket": "expenses-history.appspot.com"
+    "project_number": "1089859076002",
+    "firebase_url": "https://vks-app-f9b3e-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "vks-app-f9b3e",
+    "storage_bucket": "vks-app-f9b3e.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:578225100300:android:d49942c95145bd116dc029",
+        "mobilesdk_app_id": "1:1089859076002:android:0d9322bbc2187b3c453cfb",
         "android_client_info": {
-          "package_name": "com.expenses.history"
+          "package_name": "com.vks.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "578225100300-252a0m57hilii6hr19a0g3lcm6n3ht0u.apps.googleusercontent.com",
+          "client_id": "1089859076002-ohl232qbsijb8hit9933ck1dp6ro0o7p.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCac2gZJ1NRggQgCIMqPhNdkrK6aIYhVDc"
+          "current_key": "AIzaSyAqozQHnsm1ZVNGhr_50qAPg0MWC0B6xOI"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "578225100300-252a0m57hilii6hr19a0g3lcm6n3ht0u.apps.googleusercontent.com",
+              "client_id": "1089859076002-ohl232qbsijb8hit9933ck1dp6ro0o7p.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
