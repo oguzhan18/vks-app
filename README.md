@@ -17,7 +17,7 @@ Use it as you want
 - Angular 
   
 ## Screenshots 
- <p>
+ <p align="center">
  <img src="./ss/1.png">
 <img src="./ss/2.png">
 <img src="./ss/3.png"> 
