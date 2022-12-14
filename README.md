@@ -14,7 +14,7 @@ Use it as you want
  
 ## Making
 - Ease of Use.
-- Angular 
+- Flutter 
   
 ## Screenshots 
  <p align="center">
